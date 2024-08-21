@@ -1,0 +1,99 @@
+@charset "ISO-8859-1";
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 20px;
+}
+
+.updateBox{
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+}
+
+body{
+	position: absolute;
+}
+
+form{
+	background-color: rgba(255, 255, 255, 0.81);
+	width: 55%;
+	height: 650px;
+	padding-top: 23px;
+	margin-top: 80px;
+	margin-left: 525px;
+}
+
+.heading{
+	font-size: 30px;
+	color: green;
+	font-weight: bolder;
+}
+
+.label{
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 18px;
+	font-weight: bolder;
+}
+
+.updateName{
+	background: none;
+	margin-top: 5px;
+	font-size: 16px;
+	padding: 5px 5px 5px 10px;
+	width: 320px;
+	color: dodgerblue;
+}
+
+.updateEmail{
+	background: none;
+	margin-top: 5px;
+	font-size: 16px;
+	padding: 5px 5px 5px 10px;
+	width: 320px;
+	color: dodgerblue;
+}
+
+.updateReview{
+	background: none;
+	margin-top: 5px;
+	font-size: 16px;
+	padding: 5px 5px 5px 10px;
+	resize: none;
+	width: 320px;
+	height: 180px;
+	color: dodgerblue;
+	border: 1.8px solid #000;
+}
+
+.updateStar{
+	background: none;
+	margin-top: 5px;
+	font-size: 16px;
+	padding: 5px 5px 5px 10px;
+	width: 80px;
+	color: dodgerblue;
+}
+	
+.updateButton {
+	text-decoration: none;
+	color: #000;
+	font-size: 22px;
+	border: 3px solid #fff;
+	background-color: #60EE36;
+	padding: 6px 12px 6px 12px;
+	font-weight: bolder;
+	margin-top: 15px;
+	margin-left: -2px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+			
+.updateButton:hover {
+	color: #fff;
+	border: 3px solid #fff;
+	background-color: #35A016;
+	box-shadow: 4px 7px 10px 6px rgb(0, 0, 0, 0.3);
+}

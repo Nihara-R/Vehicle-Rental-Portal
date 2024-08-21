@@ -1,0 +1,251 @@
+@charset "ISO-8859-1";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fullpage{
+	display: flex;
+}
+
+.leftside{
+	display: flex;
+	position: relative;
+}
+
+.rightside {
+	display: flex;
+    flex: 100px; 
+    position: relative;
+    color: #fff;
+    margin-left: 840px;
+    margin-right: 200px;
+    margin-top: 120px;
+    padding: 30px;
+    display: block;
+    font-size: 30px;
+    font-weight: bolder;
+    z-index: 1; 
+    border: #fff 10px solid;
+}
+
+.comma{
+	font-size: 50px;
+}
+
+.signup_text {
+	display: flex;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.signupbox{
+	position: absolute;
+	box-shadow: 4px 7px 10px 6px rgb(0, 0, 0, 0.5);
+	width: 30%;
+	height: 90%;
+	margin-right: 100px;
+	margin-left: 180px;
+	margin-top: 85px;
+	padding-left: 50px;
+	background-color: rgba(255, 255, 255, 0.85);
+	color: #000;	
+	font-size: 17px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	padding-top: -100px;
+}
+
+.company{
+	color: #60EE36;
+}
+
+.heading2{
+	margin-left: -50px;
+	font-size: 38px;
+	padding-bottom: 20px;
+	font-weight: bolder;
+	background-color: #60EE36;
+	width: 456px;
+	padding: 8px 100px 10px 155px;
+	margin-bottom: 20px;	
+}
+
+.inputnames{
+	font-weight: bolder;	 
+}
+
+.signupbackground{
+	position: absolute;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+}
+
+.signupform{
+	margin-top: 0px;
+}
+
+.inputfields{
+	width: 100%;
+	margin-bottom: 15px;
+	margin-top: 5px;
+}
+
+.inputfields input{
+	border: none;
+	border: 1px solid #000;
+	background: transparent;
+	outline: none;
+	height: 35px;
+	color: #000;
+	font-size: 16px;
+}
+
+.inputfields input[type="password"], input[type="text"], input[type="email"]{
+	border: none;
+	border-bottom: 1px solid #000;
+	background: transparent;
+	outline: none;
+	height: 35px;
+	width: 88%;
+	color: #000;
+	font-size: 16px;
+	padding-left: 5px;
+}
+
+.inputline1{
+	border: none;
+	border-bottom: 1px solid #000;
+	background: transparent;
+	outline: none;
+	height: 35px;	
+	color: #000;
+	font-size: 16px;
+	margin-bottom: 15px;
+	padding-left: 5px;
+}
+
+.inputline2{
+	border: none;
+	border-bottom: 1px solid #000;
+	background: transparent;
+	outline: none;
+	height: 35px;	
+	color: #000;
+	font-size: 16px;
+	margin-bottom: 15px;
+	padding-left: 5px;
+}
+
+.inputline3{
+	border: none;
+	border-bottom: 1px solid #000;
+	background: transparent;
+	outline: none;
+	height: 35px;
+	color: #000;
+	font-size: 16px;
+	margin-bottom: 15px;
+	padding-left: 5px;
+}
+
+.inputline4{
+	border: none;
+	border-bottom: 1px solid #000;
+	background: transparent;
+	outline: none;
+	height: 35px;
+	color: #000;
+	font-size: 16px;
+	margin-bottom: 15px;
+	padding-left: 5px;
+}
+
+.inputline5{
+	border: none;
+	border-bottom: 1px solid #000;
+	background: transparent;
+	outline: none;
+	height: 35px;
+	color: #000;
+	font-size: 16px;
+	margin-bottom: 15px;
+	padding-left: 5px;
+}
+
+.inputline7{
+	border: none;
+	border-bottom: 1px solid #000;
+	background: transparent;
+	outline: none;
+	height: 35px;
+	color: #000;
+	font-size: 16px;
+	margin-bottom: 5px;
+	padding-left: 5px;
+}
+
+.inputfields input[type="text"]:focus,
+.inputfields input[type="password"]:focus,
+.inputfields input[type="email"]:focus{
+	border: none;
+	border-bottom: 1px solid red;
+	outline: none;
+}
+
+
+.inputfields i{
+	position: absolute;
+	margin: 10px -30px;
+}
+
+.visibility:hover{
+	cursor: pointer;
+	color: red;
+}
+
+.signupmain{
+	margin-left: 45px;	
+}
+
+/* Style for unchecked checkbox label */
+input[type="checkbox"]:not(:checked) + label {
+    color: red; 
+}
+
+
+.signupagree a{
+	color: rgb(0, 128, 192);
+	text-decoration: none;
+}
+
+.Signup-upBtn{
+	padding: 8px 150px 8px 150px;
+	font-size: 20px;
+	background-color: #60EE36;
+	font-weight: bolder;
+	font-family: Arial, Helvetica, sans-serif;
+	border: white 1px solid;
+	margin-bottom: 40px;
+	margin-top: 20px;
+	margin-left: -10px;
+}
+
+.signupagree a:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.Signup-upBtn:hover{
+	background-color: #35A016;
+	color: #fff;
+	border:  #000 2px solid;
+	box-shadow: 4px 7px 10px 6px rgb(0, 0, 0, 0.2);
+	cursor: pointer;
+}
